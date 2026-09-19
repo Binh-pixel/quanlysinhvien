@@ -26,6 +26,120 @@
 
     <style>
 
+        :root {
+            --pink: #e83e8c;
+            --pink-dark: #c21869;
+            --pink-soft: #fff0f7;
+            --pink-border: #f3b6d2;
+        }
+
+        body,
+        .app-main {
+            background-color: #ffffff !important;
+        }
+
+        .app-header {
+            background-color: #ffffff !important;
+            border-bottom: 1px solid var(--pink-border);
+        }
+
+        .app-header .nav-link,
+        .app-header .nav-link i {
+            color: var(--pink-dark);
+        }
+
+        .app-sidebar {
+            background: linear-gradient(180deg, var(--pink-dark), var(--pink)) !important;
+        }
+
+        .sidebar-brand,
+        .app-sidebar .brand-link {
+            background-color: rgba(255, 255, 255, 0.12) !important;
+            color: #ffffff !important;
+        }
+
+        .app-sidebar .nav-link {
+            color: #fff5fa;
+        }
+
+        .app-sidebar .nav-link:hover,
+        .app-sidebar .nav-link.active {
+            background-color: #ffffff !important;
+            color: var(--pink-dark) !important;
+        }
+
+        .app-sidebar .nav-header {
+            color: #ffd6e9;
+        }
+
+        .small-box.text-bg-primary,
+        .small-box.text-bg-success,
+        .small-box.text-bg-warning {
+            background-color: var(--pink) !important;
+            color: #ffffff !important;
+        }
+
+        .card-primary.card-outline {
+            border-top-color: var(--pink) !important;
+        }
+
+        .card-title,
+        .breadcrumb-item a {
+            color: var(--pink-dark);
+        }
+
+        .btn-primary,
+        .btn-primary:hover,
+        .btn-primary:focus {
+            background-color: var(--pink) !important;
+            border-color: var(--pink) !important;
+        }
+
+        .btn-secondary {
+            background-color: #ffffff;
+            border-color: var(--pink-border);
+            color: var(--pink-dark);
+        }
+
+        .btn-secondary:hover {
+            background-color: var(--pink-soft);
+            border-color: var(--pink);
+            color: var(--pink-dark);
+        }
+
+        .table-primary,
+        .table-primary > th,
+        .table-primary > td {
+            --bs-table-bg: var(--pink-soft);
+            --bs-table-color: var(--pink-dark);
+            border-color: var(--pink-border);
+        }
+
+        .table-hover tbody tr:hover {
+            --bs-table-hover-bg: #fff7fb;
+        }
+
+        .input-group-text {
+            background-color: var(--pink-soft);
+            border-color: var(--pink-border);
+            color: var(--pink-dark);
+        }
+
+        .form-control:focus {
+            border-color: var(--pink);
+            box-shadow: 0 0 0 0.25rem rgba(232, 62, 140, 0.2);
+        }
+
+        .badge.text-bg-info {
+            background-color: var(--pink-soft) !important;
+            color: var(--pink-dark) !important;
+        }
+
+        .app-footer {
+            background-color: #ffffff;
+            border-top: 1px solid var(--pink-border);
+        }
+
         .student-table td {
             vertical-align: middle;
         }
